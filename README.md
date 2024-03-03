@@ -4,6 +4,7 @@
 * A **complete framework of ground segmentation totally based on images**. Thus, it is very easy to further accelerate by adjusting the resolutions of images.
 * **Accurate and Super Fast**. DipG-Seg can run at more than 120Hz on an Intel NUC (i7 1165G7) with a resolution of $64\times 870$, achieving a high accuracy of over 94% on the SemanticKITTI dataset.
 * **Robust** to LIDAR models and scnenarios. The given parameters allow DipG-Seg to work well on 64, 32, and 16-beam LiDARs and in scenarios in nuScenes and SemanticKITTI.
+<p align="center"><img src=./pictures/seq00-gif.gif alt="animated" /></p>
 
 ## 2. About this repo
 ### 2.1 Hope this repo can help you
