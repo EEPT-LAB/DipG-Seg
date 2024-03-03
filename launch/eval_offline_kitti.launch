@@ -1,0 +1,9 @@
+<launch>
+
+    <rosparam param="dataset_path">"/home/your/dataset_path/sequences/"</rosparam>
+    <rosparam param="eval_flag">true</rosparam>
+    <rosparam param="verbose">false</rosparam>
+    <param name="output_path" type="string" value="$(find dipgseg)/result/"/>
+
+</launch> 
+

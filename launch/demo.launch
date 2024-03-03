@@ -1,0 +1,12 @@
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find dipgseg)/rviz/reprj.rviz" />
+
+    <rosparam param="verbose">true</rosparam> 
+
+    <!-- you can change the args to a specific sequence number, such as 09, 10 -->
+    <node pkg="dipgseg" type="demo_node" name="dipgseg_demo" output="screen">
+        <!-- you can toggle the next line comment to remap the point_cloud topic to your own -->
+        <!-- <remap from="/pointcloud" to="your_point_cloud_topic_name" /> -->
+    </node>
+
+</launch>

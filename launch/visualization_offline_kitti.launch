@@ -1,0 +1,16 @@
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find dipgseg)/rviz/reprj.rviz" />
+    
+    <!-- change the path to your own dataset path, until the "/sequences/" -->
+    <rosparam param="dataset_path">"/home/your/dataset_path/sequences/"</rosparam>
+    <param name="output_path" type="string" value="$(find dipgseg)/result/"/>
+
+    <!-- if you want to see the evaluation result and time cost, please make sure the verbose is true, while the eval_flag is false -->
+    <rosparam param="eval_flag">false</rosparam>
+    <rosparam param="verbose">true</rosparam>
+
+    <!-- you can change the args to a specific sequence number, such as 09, 10 -->
+    <node pkg="dipgseg" type="offline_kitti_node" name="dipgseg_node" output="screen" args="06">
+    </node>
+
+</launch> 
