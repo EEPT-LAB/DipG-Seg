@@ -5,12 +5,6 @@
 * **Accurate and Super Fast**. DipG-Seg can run at more than 120Hz on an Intel NUC (i7 1165G7) with a resolution of $64\times 870$, achieving a high accuracy of over 94% on the SemanticKITTI dataset.
 * **Robust** to LIDAR models and scnenarios. The given parameters allow DipG-Seg to work well on 64, 32, and 16-beam LiDARs and in scenarios in nuScenes and SemanticKITTI.
 
-<!-- <p align="center"><img src=./pictures/seq00-gif.gif alt="animated" /></p> -->
-<table><tr>
-<td><img src= pictures/seq04-gif.gif border=0></td>
-<td><img src= pictures/seq08-gif.gif border=0></td>
-</tr></table>
-
 ## 2. About this repo
 ### 2.1 Hope this repo can help you
 
@@ -20,7 +14,16 @@ Author: [Hao Wen](https://scholar.google.com/citations?user=823HzfIAAAAJ&hl=zh-C
 
 Paper: [DipG-Seg: Fast and Accurate Double Image-Based Pixel-Wise Ground Segmentation](), Hao Wen, Senyi Liu, Yuxin Liu, and Chunhua Liu, T-ITS, Regular Paper
 ```
-@article
+@ARTICLE{10359455,
+  author={Wen, Hao and Liu, Senyi and Liu, Yuxin and Liu, Chunhua},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={DipG-Seg: Fast and Accurate Double Image-Based Pixel-Wise Ground Segmentation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Image segmentation;Fitting;Three-dimensional displays;Point cloud compression;Sensors;Laser radar;Image sensors;Ground segmentation;autonomous driving;mobile robots;LiDAR-based perception},
+  doi={10.1109/TITS.2023.3339334}}
 ```
 Explore more demos in [Video](https://www.bilibili.com/video/BV15j421U7Gw/?share_source=copy_web&vd_source=c2e60f8b76075d5cfcff6cb5abe02dee)
 
