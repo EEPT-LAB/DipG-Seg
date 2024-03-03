@@ -22,7 +22,7 @@ Paper: [DipG-Seg: Fast and Accurate Double Image-Based Pixel-Wise Ground Segment
 ```
 @article
 ```
-Explore more demos in [Video](video_link)
+Explore more demos in [Video](https://www.bilibili.com/video/BV15j421U7Gw/?share_source=copy_web&vd_source=c2e60f8b76075d5cfcff6cb5abe02dee)
 
 ### 2.2 What in this repo
 * An example of a ros node for validation on your own platform.
