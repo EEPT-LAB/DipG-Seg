@@ -1,8 +1,8 @@
 # DipG-Seg
-***DipG-Seg*** is a fast and accurate ground segmentation algorithm based on double images including $z$-image and $d$-image. This method is pixel-wise, which could be regarded as the counterpart of point-wise on the 3D point cloud. Despite this, our method is very efficient, meanwhile, accurate.
+***DipG-Seg*** is a fast and accurate ground segmentation algorithm based on double images including zz-image and dd-image. This method is pixel-wise, which could be regarded as the counterpart of point-wise on the 3D point cloud. Despite this, our method is very efficient, meanwhile, accurate.
 ## 1. Features of DipG-Seg
 * A **complete framework of ground segmentation totally based on images**. Thus, it is very easy to further accelerate by adjusting the resolutions of images.
-* **Accurate and Super Fast**. DipG-Seg can run at more than 120Hz on an Intel NUC (i7 1165G7) with a resolution of $64\times 870$, achieving a high accuracy of over 94% on the SemanticKITTI dataset.
+* **Accurate and Super Fast**. DipG-Seg can run at more than 120Hz on an Intel NUC (i7 1165G7) with a resolution of 64×87064\times 870, achieving a high accuracy of over 94% on the SemanticKITTI dataset.
 * **Robust** to LIDAR models and scnenarios. The given parameters allow DipG-Seg to work well on 64, 32, and 16-beam LiDARs and in scenarios in nuScenes and SemanticKITTI.
 <p align="center"><img src=./pictures/cover.gif alt="animated" /></p>
 
@@ -13,7 +13,7 @@ If you find our repo helpful for your research, please cite our paper. Thank you
 
 Author: [Hao Wen](https://scholar.google.com/citations?user=823HzfIAAAAJ&hl=zh-CN) and [Chunhua Liu](https://scholar.google.com/citations?user=7WEZSaIAAAAJ&hl=zh-CN) from EEPT Lab at CityU.
 
-Paper: [DipG-Seg: Fast and Accurate Double Image-Based Pixel-Wise Ground Segmentation](), Hao Wen, Senyi Liu, Yuxin Liu, and Chunhua Liu, T-ITS, Regular Paper
+Paper: [DipG-Seg: Fast and Accurate Double Image-Based Pixel-Wise Ground Segmentation](https://ieeexplore.ieee.org/abstract/document/10359455), Hao Wen, Senyi Liu, Yuxin Liu, and Chunhua Liu, T-ITS, Regular Paper
 ```
 @ARTICLE{10359455,
   author={Wen, Hao and Liu, Senyi and Liu, Yuxin and Liu, Chunhua},
